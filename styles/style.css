@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght0400;500;600&display=swap");
+
+/* <--https://www.freeimages.com/photo/leather-bag-1487953--> */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/*navbaar style start here */
+.shop-header{
+   background-color: #9376e0;
+}
+
+.nav-header-section{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+  /*  border: 2px solid blue;*/
+    /* background-color: red; */
+
+    /*color: red; */
+}
+.nav-container {
+  /*  border: 2px solid red; */
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+    /*justify-content: center; */
+}
+
+.nav-container img {
+    width: 90px;
+    object-fit: cover;
+}
+
+.nav-container p {
+    color: black;
+    font-size: 25px;
+}
+
+.special{
+   /* color: red; */
+    color: #e893ef;
+    font-weight: 900;
+}
+
+.nav-item-container{
+  /*  border: 4px solid yellow; */
+       
+    width: 50%;
+    display: flex;
+   justify-content: space-between; 
+   /*    justify-content: space-around; */
+    align-items: center;
+}
+
+.nav-item-container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-item-container .login-button a{
+    padding: 10px 20px;
+   background-color: #e893ef;
+    border-radius: 5px;
+    color: black;
+
+}
+
+
