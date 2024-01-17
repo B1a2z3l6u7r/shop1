@@ -1,0 +1,18 @@
+@media screen and (max-width: 975px); {
+   
+   .header{
+    min-height: 40px;
+   }
+    .nav-header-section{
+      
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .nav-item-container{
+      flex-direction: column;
+      margin-left: 50px;
+      gap: 20px;
+
+      }
+    
+}
