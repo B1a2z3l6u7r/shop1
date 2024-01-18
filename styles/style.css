@@ -1,4 +1,26 @@
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+
+}
+
+/* .kaushan-script-regular {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+   
+  } */
+
+
+.aguafina-script-regular {
+    font-family: "Aguafina Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght0400;500;600&display=swap");
+
 
 /* <--https://www.freeimages.com/photo/leather-bag-1487953--> */
 * {
@@ -9,6 +31,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+
 }
 
 /*navbaar style start here */
@@ -49,7 +72,7 @@ body {
 .special {
     /* color: red; */
     color: #e893ef;
-    font-weight: 900;
+    font-weight: 900px;
 }
 
 .nav-item-container {
@@ -86,24 +109,37 @@ body {
     max-width: 1250px;
     margin: 0 auto;
     /*  background-color: red; * >*/
-    border: 2px solid blue;
+    /*  border: 2px solid blue;*/
     min-height: 400px;
+    background-color: #e6e9eb;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 20px;
     display: flex;
+    
+   
 }
 
 .left-text-container {
-    border: 2px solid green;
-    min-width: none;
+
+    /*   border: 2px solid green; */
+    /* min-width: none; */
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
+    align-items: center;
+    gap: 15px;
+    border-radius: 10px;
+    background-color: aliceblue;
 }
 
 .banner-image-container {
-    border: 2px solid violet;
+    /* border: 2px solid violet;*/
     width: 50%;
+    position: relative;
+    
+    
 }
 
 .banner-image-container img {
@@ -111,8 +147,133 @@ body {
     height: 100%;
     display: block;
     margin: 0 auto;
-    object-fit: cover; 
+    object-fit: cover;
+    border-radius: 10px;
+   
+
+}
+
 /* left-text-container*/
-.left-text-container h1 , P, span{
-font-size: 45px;
+.left-text-container h1,
+P,
+span {
+    font-size: 30px;
+
+}
+
+.banner-heading {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(45deg, #e893ef, #9376e0; );
+    background-clip: text;
+    /* color: transparent; */
+    font-size: 65px;
+}
+
+/*{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700px;
+    background: linear-gradient(45deg, #e893ef, #9376e0; );
+    background-clip: text;
+    color: transparent;
+    font-size: 60px;
+
+} */
+
+.mans-collection {
+    font-family: "Aguafina Script", cursive;
+    font-weight: 400px;
+    /* font-family: "Kaushan Script", cursive; */
+
+
+}
+
+.fa-brands {
+    font-size: 45px;
+}
+
+.social-media {
+    width: 200px;
+    display: flex;
+    gap: 25Px;
+    /*  width: 60%
+        display: flex;  
+        justify-content: space-between; 
+        align-items: center; */
+
+}
+
+.common-button {
+    padding: 10px 20px;
+
+    display: inline-block;
+    /* gap: 25px; */
+
+    color: #9376e0;
+    /*   border: 2px solid #e893ef; */
+    border-radius: 5px;
+    background-color: #e6e9eb;
+}
+
+.discount {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(128, 128, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 69%;
+    left: 75%;
+    font-size: 25px;
+    
+}
+
+.product-section{
+    max-width: 1250px;
+    margin: 0 auto;
+} 
+
+.grid-container{
+   min-width: 400px; 
+ /*   border: 2px solid red; */
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 15px;
+    
+
+}
+
+.single-product{
+ /*   border: 2px solid blue; */
+ /*   width: 30%; */
+    padding: 15px;
+    background-color: #9376e0;
+    border-radius: 5px;
+
+   
+
+}
+
+.single-product img{
+    width: 70%;
+   display: block; 
+    margin: 0 auto;
+    
+}
+
+.heading-icons{
+    display: flex;
+    justify-content: space-between
+    align-items: center;
+
+}
+
+.icon{
+    background-color: #e893ef; 
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
 }

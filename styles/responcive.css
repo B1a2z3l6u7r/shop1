@@ -1,4 +1,11 @@
-@media screen and (max-width: 975px); {
+
+ /* @media screen and (max-width: 772px); { */
+   /* Products */
+   /*.grid-container{ */
+  /*  grid-template-columns: repeat(2, 1fr); */
+  /*  gap: 15px;   }     } */
+
+@media screen and (max-width: 676px); {
    
    .header{
     min-height: 40px;
@@ -15,4 +22,31 @@
 
       }
     
+}
+
+.banner-section {
+  flex-direction: column;
+  margin-top: 40px;
+  gap: 15px;
+
+}
+
+
+.left-text-container {
+width: 100%;
+order: 2;
+}
+
+.banner-image-container {
+   width: 100%;
+   order: 1;
+
+}
+
+/* products */
+.grid-container{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+ }
+
 }
