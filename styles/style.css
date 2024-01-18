@@ -116,8 +116,8 @@ body {
     border-radius: 10px;
     padding: 20px;
     display: flex;
-    
-   
+
+
 }
 
 .left-text-container {
@@ -138,8 +138,8 @@ body {
     /* border: 2px solid violet;*/
     width: 50%;
     position: relative;
-    
-    
+
+
 }
 
 .banner-image-container img {
@@ -149,7 +149,7 @@ body {
     margin: 0 auto;
     object-fit: cover;
     border-radius: 10px;
-   
+
 
 }
 
@@ -228,52 +228,81 @@ span {
     bottom: 69%;
     left: 75%;
     font-size: 25px;
-    
+
 }
 
-.product-section{
+.product-section {
     max-width: 1250px;
     margin: 0 auto;
-} 
+}
 
-.grid-container{
-   min-width: 400px; 
- /*   border: 2px solid red; */
+.grid-container {
+    min-width: 400px;
+    /*   border: 2px solid red; */
     display: grid;
-    grid-template-columns:repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
-    
+
 
 }
 
-.single-product{
- /*   border: 2px solid blue; */
- /*   width: 30%; */
+.single-product {
+    /*   border: 2px solid blue; */
+    /*   width: 30%; */
     padding: 15px;
     background-color: #9376e0;
     border-radius: 5px;
 
-   
+
 
 }
 
-.single-product img{
+.single-product img {
     width: 70%;
-   display: block; 
+    display: block;
     margin: 0 auto;
-    
+
 }
 
-.heading-icons{
+.heading-icons {
     display: flex;
-    justify-content: space-between
-    align-items: center;
+    justify-content: space-between align-items: center;
 
 }
 
-.icon{
-    background-color: #e893ef; 
+.icon {
+    background-color: #e893ef;
     font-size: 20px;
     border-radius: 50%;
     padding: 10px;
+}
+
+/* gallery styles */
+.gallery-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 2px solid blue;
+}
+
+.gallery-containar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   /* align-content: center; */
+   gap: 15px;
+
+}
+
+.single-gallery img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.single-gallery {
+    flex-basis: 350px;
+    border: 2px solid red;
+    
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
